@@ -8,7 +8,7 @@ The purpose of this system is to automatically **disable the air conditioner whe
 
 ### 🔧 What I Did:
 
-[Start work striped](
+![Start work striped](1.jpg)
 - Connected multiple sensor wires **in series** 
 - Stripped and joined wires using **electrician’s scissors**
 - Used **heat-shrink tubing** for safe and clean insulation
