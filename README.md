@@ -9,10 +9,18 @@ The purpose of this system is to automatically **disable the air conditioner whe
 ### 🔧 What I Did:
 
 ![Start work striped](1.jpg)
-- Connected multiple sensor wires **in series** 
+
 - Stripped and joined wires using **electrician’s scissors**
+
+  ![Stripping](2.jpg)
+
+- Connected multiple sensor wires **in series**
+
+![Connection](3.jpg)
+
 - Used **heat-shrink tubing** for safe and clean insulation
-- Verified continuity — the circuit breaks if any window is open
+
+![Tube](4.jpg)
 
 ### 🧠 How It Works:
 - Each window has a **magnetic sensor** (reed switch)
@@ -21,8 +29,13 @@ The purpose of this system is to automatically **disable the air conditioner whe
 - This change is detected by the control system, which **turns off the air conditioner**
 
 ### 🧵 Cable Info:
-- Used 3x2 cables (3 separate cables, each with 2 conductors: red and black)
-- Internal structure: red insulation → foil shielding → 2x 1.5mm wires → flame-retardant fabric layer → copper core
+- Used a single multi-core cable for all connections
+- Internal structure:
+  - **Outer shielding**: metallic foil wrap
+  - **Transparent plastic film** for isolation
+  - **Bare copper drain wire** (likely for grounding or shielding continuity)
+  - **4 insulated signal wires** (each with its own colored insulation)
+- Cable cores were joined by **twisting** and insulated using **heat-shrink tubing**
 
 ---
 
@@ -36,15 +49,6 @@ In this part of the project, I installed a basic **24V LED driver**. The process
 - Placed the driver into a **flush-mounted wall box**
 - Covered it with a **standard wall plate**
 
+  ![LED Driver](5.jpg)
+
 ⚠️ **Note:** Always isolate power before working with AC connections. Work must follow local electrical regulations.
-
----
-
-## 📸 Photos
-
-You can add photos like this after uploading them to your GitHub repo:
-
-```markdown
-![Window Sensor Wiring](./photos/window-sensor.jpg)
-![Heat-Shrink Example](./photos/heatshrink.jpg)
-![LED Driver in Wall Box](./photos/led-driver.jpg)
